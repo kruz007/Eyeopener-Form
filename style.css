@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.wrap{
+    position: relative;
+}
+
+.wrap img{
+    width: 18px;
+    position: absolute;
+    left: 15.5rem;
+}
